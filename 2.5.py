@@ -11,7 +11,7 @@ RPL.pinMode(RS,RPL.INPUT)
 def left():
      if readingL == 0:
           RPL.servoWrite(L,1410)
-     Elif readingL == 1:
+     elif readingL == 1:
 	  RPL.servoWrite(L,1500)
 def right():
      if readingL == 0:
