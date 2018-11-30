@@ -1,10 +1,10 @@
 import RoboPiLib as RPL
 import setup
 x = 1
-L = Pin 
-R = Pin
-LS = Pin
-RS = Pin
+L = pin #left motor
+R = in #right motor
+LS = pin #left sensor
+RS = pin #right motor
 RPL.pinMode(LS,RPL.INPUT)
 RPL.pinMode(RS,RPL.INPUT)
 
