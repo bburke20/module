@@ -16,7 +16,7 @@ def left():
 def right():
      if readingL == 0:
           RPL.servoWrite(R,1590)
-     Elif readingL == 1:
+     elif readingL == 1:
 	  RPL.servoWrite(R,1500)
 def both():
      RPL.servoWrite(L,1590)
